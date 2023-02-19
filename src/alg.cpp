@@ -40,7 +40,7 @@ uint64_t sumPrime(uint64_t hbound) {
   uint64_t newhbound;
   newhbound = hbound - 1;
   while (newhbound > 0) {
-    if (checkPrime(newhbound)==true) {
+    if (checkPrime(newhbound) == true) {
       summa += newhbound;
     }
     --newhbound;
